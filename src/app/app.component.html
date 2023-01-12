@@ -1,0 +1,13 @@
+<h1 class='center'> Liste des Pokémons</h1>
+ <div class='container'>
+   <div class="row">
+    <div *ngFor='let pokemon of pokemonEn' class="col s6 m4">
+      <div class="card horizontal">
+       <div class="card-image">
+           <img [src]="pokemon.picture">
+         </div>
+        
+         </div>
+      </div>
+    </div>
+ </div>
